@@ -1,0 +1,62 @@
+
+一、USB上拉电阻引脚
+
+1.
+  "platform_config.h"中：
+
+  #define USB_DISCONNECT            GPIOD  
+  #define USB_DISCONNECT_PIN        GPIO_Pin_9
+  #define RCC_APB2Periph_GPIO_DISCONNECT      RCC_APB2Periph_GPIOD
+
+
+  修改为：
+
+  #define USB_DISCONNECT            GPIOA  
+  #define USB_DISCONNECT_PIN        GPIO_Pin_15
+  #define RCC_APB2Periph_GPIO_DISCONNECT      RCC_APB2Periph_GPIOA
+
+2.
+  GPIO_InitStructure.GPIO_Pin = USB_DISCONNECT_PIN;
+  GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_OD;
+  GPIO_Init(USB_DISCONNECT, &GPIO_InitStructure); 
+
+  修改为：
+  GPIO_InitStructure.GPIO_Pin = USB_DISCONNECT_PIN;
+  GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;	//改
+  GPIO_Init(USB_DISCONNECT, &GPIO_InitStructure); 
+
+
+
+3.
+  "hw_config.h"中：
+
+void USB_Cable_Config (FunctionalState NewState)
+{
+  if (NewState != DISABLE)
+  {
+    GPIO_ResetBits(USB_DISCONNECT, USB_DISCONNECT_PIN);
+  }
+  else
+  {
+    GPIO_SetBits(USB_DISCONNECT, USB_DISCONNECT_PIN);
+  }
+}
+
+  修改为：
+
+void USB_Cable_Config (FunctionalState NewState)
+{
+  if (NewState = DISABLE)		//改
+  {
+    GPIO_ResetBits(USB_DISCONNECT, USB_DISCONNECT_PIN);
+  }
+  else
+  {
+    GPIO_SetBits(USB_DISCONNECT, USB_DISCONNECT_PIN);
+  }
+}
+
+
+

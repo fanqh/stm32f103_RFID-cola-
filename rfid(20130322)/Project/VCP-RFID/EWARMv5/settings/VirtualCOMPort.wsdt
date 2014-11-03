@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>VirtualCOMPort/STM3210E-EVAL</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>124</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1395</ColumnWidth1><ColumnWidth2>372</ColumnWidth2><ColumnWidth3>93</ColumnWidth3></Build>
+    <Find-in-Files><ColumnWidth0>664</ColumnWidth0><ColumnWidth1>94</ColumnWidth1><ColumnWidth2>1138</ColumnWidth2></Find-in-Files></Static>
+    <Windows>
+      
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-10592-3453</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>VirtualCOMPort</ExpandedNode><ExpandedNode>VirtualCOMPort/Output</ExpandedNode><ExpandedNode>VirtualCOMPort/USB-FS-Device_Driver</ExpandedNode><ExpandedNode>VirtualCOMPort/User</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-19249-3495</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-27249-5879</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\zzw\&#x684C;&#x9762;\RFID(8.17.1)\RFID(8.15.1)\RFID&#x6570;&#x636e;&#x7eD3;&#x6784;-V5.2.9\Project\VCP-RFID\src\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>90</SelStart><SelEnd>90</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\zzw\&#x684C;&#x9762;\RFID(8.17.1)\RFID(8.15.1)\RFID&#x6570;&#x636e;&#x7eD3;&#x6784;-V5.2.9\Project\VCP-RFID\src\stm32f10x_it.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>1221</SelStart><SelEnd>1221</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\zzw\&#x684C;&#x9762;\RFID(8.17.1)\RFID(8.15.1)\RFID&#x6570;&#x636e;&#x7eD3;&#x6784;-V5.2.9\Project\VCP-RFID\inc\stm32f10x_conf.h</Filename><XPos>0</XPos><YPos>17</YPos><SelStart>1886</SelStart><SelEnd>1886</SelEnd></Tab><ActiveTab>2</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\zzw\&#x684C;&#x9762;\RFID(8.17.1)\RFID(8.15.1)\RFID&#x6570;&#x636e;&#x7eD3;&#x6784;-V5.2.9\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00b0a2e8><key>iaridepm.enu1</key></Toolbar-00b0a2e8></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>677</Bottom><Right>198</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>199</yscreen><sizeHorzCX>104167</sizeHorzCX><sizeHorzCY>199000</sizeHorzCY><sizeVertCX>104167</sizeVertCX><sizeVertCY>679000</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>278</Bottom><Right>1922</Right><x>-2</x><y>-2</y><xscreen>1924</xscreen><yscreen>280</yscreen><sizeHorzCX>1002083</sizeHorzCX><sizeHorzCY>280000</sizeHorzCY><sizeVertCX>104167</sizeVertCX><sizeVertCY>199000</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+
